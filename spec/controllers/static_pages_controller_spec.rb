@@ -9,11 +9,3 @@ describe StaticPagesController do
     end
   end
 
-  describe "GET 'hel'" do
-    it "returns http success" do
-      get 'hel'
-      response.should be_success
-    end
-  end
-
-end
